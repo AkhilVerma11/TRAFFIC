@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>Pan card</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style3.css">
+    </head>
+    <body>
+         <nav class="navbar navbar-inverse">
+             <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#robust" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#"><b>Simran</b></a>
+                  </div>
+             <div id="robust" class="collapse navbar-collapse" aria-expanded="true"> 
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="Downloads.php">Downloads</a></li>
+                    <li><a href="franchise.php">Franchise Registration</a></li>
+                    <li><a href="status.php">Status</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="enquiry.php">Ask Enquiry</a></li>
+                    <!--li><a href="contact.html">Contact us</a></li-->
+                    <li><a href="training.php">Training Manual</a></li> 
+                </ul>
+                 </div>
+             </div>
+         </nav>
+
+        <center>
+            <h2><b>Request For New Pan Card Or/ And Changes Or Correction in Pan Data</b></h2>
+        </center>
+        <hr>
+        <form method="post" action="#" id="" style="display: block">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form method="post" style="display: block" id="register-form" action="pdf.php">
+                                        <div class="container">
+                                        <div class="form-group">
+                                                                                        <h4 >
+                                              <input type="checkbox" name="Y"> *1.Full Name <span class="awesome">  (Full expanded name to be mentioned as appearing in proof idetity/dob/address documents: initials are not permitted)</h4></span>
+                                            <hr>
+                                            <label>Please select title as applicable: </label>
+                                            <input type="radio" name="title" value="title" placeholder="Shri">Shri
+                                            <input type="radio" name="title" value="title" placeholder="Smt">Smt
+                                            <input type="radio" name="title" value="title" placeholder="Kumari">Kumari
+                                            <input type="radio" name="title" value="title" placeholder="M/s">M/s<br>
+                                            <label>Last Name/SurName:</label>
+                                            <input type="text" name="lName" tabindex="1" placeholder="Last Name" id="Name" class="form-control" required>
+                                            <label>First Name:</label>
+                                            <input type="text" name="fName" tabindex="2" placeholder="First Name" id="Name" class="form-control" required>
+                                            <label>Middle Name:</label>
+                                            <input type="text" name="mName" tabindex="3" placeholder="Middle Name" id="Name" class="form-control">  
+                                        
+                                            <h4><b>Name you would like it printed on the PAN card</b><span><span  class="awesome">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mrs,M/s,Alias etc are not allowed)</span></span></h4>
+                                            <input type="text" name="lName" tabindex="1" id="Name" class="form-control" required>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                            <h4><input type="checkbox" name="Y"> *2.Details of Parents<span class="awesome">(applicable only for individual applicants)</span><br></h4><hr>
+                                            Father's Name <span class="awesome">(Manadatory.even married womwn should fill in father's name only)</span></h4>
+                                            <label>Last Name/SurName:</label>
+                                            <input type="text" name="FlName" tabindex="6" placeholder="Last Name" id="Name" class="form-control" required>
+                                            <label>First Name:</label>
+                                            <input type="text" name="FfName" tabindex="7" placeholder="First Name" id="Name" class="form-control" required>
+                                            <label>Middle Name:</label>
+                                            <input type="text" name="FmName" tabindex="8" placeholder="Middle Name" id="Name" class="form-control">
+                                            <hr>
+                                            <h4 class>Mother's Name:</h4>
+                                            <label>Last Name/SurName:</label>
+                                            <input type="text" name="FlName" tabindex="6" placeholder="Last Name" id="Name" class="form-control" required>
+                                            <label>First Name:</label>
+                                            <input type="text" name="FfName" tabindex="7" placeholder="First Name" id="Name" class="form-control" required>
+                                            <label>Middle Name:</label>
+                                            <input type="text" name="FmName" tabindex="8" placeholder="Middle Name" id="Name" class="form-control">
+                                            <h5>Select the Name of either father or mother which you may like to be printed on PAN card (select one only)</h5>
+                                            <input type="radio" name="Father" value="Father" placeholder="Father">Father's Name
+                                            <input type="radio" name="Mother" value="Mother" placeholder="Mother">Mother's Name
+                                        </div>
+                                        <hr>
+                                            <div class="form-group">
+                                              <h4><input type="checkbox" name="Y"> *3.Date of Birth/Incorporation/Partnership or Trust Deed/Formation of Body of individuals or Association of Persons</h4>
+                                              <input type="date" name="cdob" tabindex="5" placeholder="Date Of Birth" id="DOB" class="form-control">
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+
+                                            <h4><input type="checkbox" name="Y"> *4. Gender <span class="awesome">(for 'Individual' applicant only)</span>:</h4></b></h4></td></label> 
+                                            <td>
+                                              <input type="radio" name="title" value="Male" ><strong>&nbsp;Male
+                                              <input type="radio" name="title" value="Female" >&nbsp;Female
+                                              <input type="radio" name="title" value="Female" >&nbsp;TransGender<span><span  class="awesome">(Please tick as applicable)</span></span></strong></td>
+                                              <br>
+                                              <hr>
+                                            </div>
+                                            <div class="form-group">
+                                             <h4><input type="checkbox" name="Y"> *5.Photo Mismatch</h4>    
+                                            <hr>
+                                          <div class="form-group">
+                                           <h4><input type="checkbox" name="Y"> *6.Signature Mismatch</h4> 
+                                        <hr>
+                                        <div class="form-group">
+                                            <h4><input type="checkbox" name="Y"> *7.Address for Communication</h4>
+                                            <input type="radio" name="Re" value="Residence" placeholder="Residence">Residence<br>
+                                            <input type="radio" name="Of" value="Office" placeholder="Office">Office<br>
+                                            <form class="form-inline" action="action.php">
+                                            <label for="name">Name of Office (to be filled only in case of office address)</label>   
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">Flat/Room/Door/Block Number:</label>
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">Name of Premises/Building/Village:</label>
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">Road/Street/Lane/Post Office:</label>
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">Area/Locality/Taluka/Sub-Division:</label>
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">Town/City/District:</label>
+                                            <input type="text" id="Name" class="form-control"><br>
+                                            <label for="name">State/Union Territory:</label>
+                                           <select class="form-control" >
+                                             <option value="">--Please Select--</option>
+                                             <option value="1">Andaman & Nicobar Islands</option>
+                                             <option value="2">Andhra Pradesh</option>
+                                             <option value="3">Arunachal Pradesh</option>
+                                             <option value="4">Assam</option>
+                                             <option value="5">Bihar</option>
+                                             <option value="6">Chandigarh</option>
+                                             <option value="7">Chhattisgarh</option>
+                                             <option value="8">Dadara & Nagar Haveli</option>
+                                             <option value="9">Daman & Diu</option>
+                                             <option value="10">Delhi</option>
+                                             <option value="11">Goa</option>
+                                             <option value="12">Gujarat</option>
+                                             <option value="13">Haryana</option>
+                                             <option value="14">Himachal Pradesh</option>
+                                             <option value="15">Jammu & Kashmir</option>
+                                             <option value="16">Jharkhand</option>
+                                             <option value="17">Karnataka</option>
+                                             <option value="18">Kerala</option>
+                                             <option value="19">Lakhswadeep</option>
+                                             <option value="20">Madhya Pradesh</option>
+                                             <option value="21">Maharashtra</option>
+                                             <option value="22">Manipur</option>
+                                             <option value="23">Meghalaya</option>
+                                             <option value="24">Mizoram</option>
+                                             <option value="25">Nagaland</option>
+                                             <option value="26">Orissa</option>
+                                             <option value="27">Pondicherry</option>
+                                             <option value="28">Punjab</option>
+                                             <option value="29">Rajasthan</option>
+                                             <option value="30">Sikkim</option>
+                                             <option value="31">Tamil Nadu</option>
+                                             <option value="32">Telangana</option>
+                                             <option value="33">Tripura</option>
+                                             <option value="34">Uttar Pradesh</option>
+                                             <option value="35">Uttaranchal</option>
+                                             <option value="36">West Bengal</option>
+                                             <option value="99">Outside India</option>
+                                            </select><br>
+                                                     
+                                                     <label for="name">Country Name:</label>
+                                                     <select class="form-control">
+                                                      <option value="" >-- Please Select --</option>
+                                                      <option value="in" >India</option>
+                                                      </select><br>
+                                                              <label for="name">Zip code:</label>
+                                                              <input type="text" class="form-control"><br>
+                                                    </select>
+                                          </div>
+                                          <hr>
+                                                  
+                                        
+                                          <div class="form-group">
+                                            <h4><input type="checkbox" name="Y"> *8. If you desire to update your other address also, give required details in additional sheet.</h4>
+                                        <hr>
+                                        <div class="form-group">
+                                            <h4> <input type="checkbox" name="Y"> *9. Telephone Number & Email ID details</h4>
+                                            <label for="name">Country Code:</label>
+                                            <select class="form-control">
+                                            <option value="" >-- Please Select --</option>
+                                                      <option value="in" >India</option>
+                                                    </select>
+                                                      <label for="name">Area/STD Code:</label>
+                                                      <input type="text"  class="form-control"><br>
+                                                      <label for="name">Telephone/Mobile Number:</label>
+                                                      <input type="text"  class="form-control" size=10 maxlength=10><br>
+                                                      <label for="name">Email ID:</label>
+                                                      <input type="text" class="form-control"><br>
+       
+                                                      
+                                        </div>
+                                        <hr>
+                                        <div class="form-group">
+                                           <h4><input type="checkbox" name="Y"> *11. Telephone Number & Email ID details</h4>   
+                                          
+                                             
+                                                 <label for="name">PAN1:</label>   
+                                                 <input type="text" class="form-control"><br>
+                                                 <label for="name">PAN2:</label>
+                                                 <input type="text" class="form-control"><br>
+                                                 <label for="name">PAN3:</label>
+                                                 <input type="text" class="form-control"><br>
+                                                 <label for="name">PAN4:</label>
+                                                 <input type="text" class="form-control"><br>
+                                        <hr>
+                                        <br>
+
+                                        <div class="form-group">
+                                          <h4><input type="checkbox" name="Y"> *12. Verification</h4>
+                                            <b>I/We<input type="text" >,the applicant,in the capacity of</b>&nbsp;&nbsp;<select id="capacity"><option value="">--Please Select--</option><option value="01">Himself/herself</option><option value="2" > Representative Assessee</option></select>&nbsp;<b>do hereby declare that what is stated above is true to the best of my/our information and belief.</b><br>
+                                            <b>I/We have enclosed<input type="text">(number of documents) in support of proposed changes / corrections.</b><br><br>
+                                            <label for="name">Place:</label>
+                                            <input type="text" ><br><br>
+                                            <label for="name">Date:</label>
+                                            <input type="date" name="cdob" tabindex="5" placeholder="Date Of Birth" id="DOB" class="form-control">
+                                            
+
+                                            <div class="form-group">
+                                             <label for="upload">Upload Photo:</label></td> 
+                                             <input type="file" name="signfile" placeholder="Upload Your photo" class="form-control btn btn-enquiry" required>
+                                            </div>
+                                            <div class="form-group">
+                                             <label>Upload Signature:</label>
+                                             <input type="file" name="signfile" placeholder="Upload Your Signature" class="form-control btn btn-enquiry" required>
+                                            </div>
+       
+                                        </div>
+                                        <hr>                                  
+                                                <input type="submit" name="enquiry-submit" id="enquiry-submit" class="form-control btn btn-enquiry" value="Submit" required>
+                                            </div>
+                                        </center>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

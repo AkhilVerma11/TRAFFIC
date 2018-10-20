@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<div id="overlay" >
+  <div id="text">    <div class="contact-form">
+        <img src="2.jpg" class="avatar">
+         <span onclick="off()" class="close" title="Close Modal">&times;</span>
+        <h2>Login</h2>
+        <form>
+            <p></p>
+            <select id="country" name="country" width: 100%;>
+            <option value="User">User</option>
+            <option value="Sub-Admin">Sub-Admin</option>
+            </select>
+            <p></p>
+            <input type="text" name="" placeholder="Vender ID">
+            <p></p>
+            <input type="password" name="" placeholder="Enter Password">
+            <input type="submit" name="" value="Sign In">
+            <span class="psw"><a href="#">Forgot password?</a></span>
+            <p><input type="checkbox"> Remember Me</p>
+            <span class="dis"><a href="#">Don't Have an Account</a></span>
+        </form>
+    </div></div>
+</div>
+
+<div style="padding:20px">
+  <h2>POPUP LOGIN FORM</h2>
+  <button onclick="on()">Click here to popup</button>
+</div>
+
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
